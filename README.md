@@ -1,7 +1,7 @@
 # Prompt Management Platform
 
 <div align="center">
-  <img src="https://github.com/PromptKits/.github/profile/resources/logo.png" alt="Logo" width="200"/>
+  <img src="https://github.com/PromptKits/.github/blob/main/profile/resources/logo.png" alt="Logo" width="200"/>
   
   <p>A comprehensive platform for managing, optimizing, and trading AI prompts with advanced features for both individual users and businesses.</p>
 
