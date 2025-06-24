@@ -1,33 +1,31 @@
-# Prompt Management Platform
+# Lucent - Pomodoro Focus Timer
 
 <div align="center">
-  <img src="https://github.com/PromptKits/.github/blob/main/profile/resources/logo.png" alt="Logo" width="200"/>
+  <img src="https://github.com/PromptKits/.github/blob/main/profile/resources/logo.png" alt="Lucent Logo" width="300"/>
   
-  <p>A comprehensive platform for managing, optimizing, and trading AI prompts with advanced features for both individual users and businesses.</p>
+  <p>A beautiful and intuitive Pomodoro timer app designed to boost your productivity and focus with progress tracking and insightful statistics.</p>
 
   <div>
-    <img src="https://img.shields.io/badge/-React-222222?style=flat&logo=React&logoColor=61DAFB" alt="React"/>
-    <img src="https://img.shields.io/badge/-TypeScript-000000?style=flat&logo=typescript" alt="TypeScript"/>
     <img src="https://img.shields.io/badge/-React_Native-000000?style=flat&logo=react" alt="React Native"/>
+    <img src="https://img.shields.io/badge/-Expo-000000?style=flat&logo=expo" alt="Expo"/>
+    <img src="https://img.shields.io/badge/-TypeScript-000000?style=flat&logo=typescript" alt="TypeScript"/>
     <img src="https://img.shields.io/badge/-NestJS-000000?style=flat&logo=nestjs" alt="NestJS"/>
-    <img src="https://img.shields.io/badge/-TypeORM-000000?style=flat&logo=typeorm" alt="TypeORM"/>
     <img src="https://img.shields.io/badge/-Firebase-000000?style=flat&logo=firebase" alt="Firebase"/>
-    <img src="https://img.shields.io/badge/-OpenAI-000000?style=flat&logo=openai" alt="OpenAI"/>
-    <img src="https://img.shields.io/badge/-Stripe-000000?style=flat&logo=stripe" alt="Stripe"/>
+    <img src="https://img.shields.io/badge/-PostgreSQL-000000?style=flat&logo=postgresql" alt="PostgreSQL"/>
   </div>
 </div>
 
 ## 📋 Table of Contents
 
-- [Prompt Management Platform](#prompt-management-platform)
+- [Lucent - Pomodoro Focus Timer](#lucent---pomodoro-focus-timer)
   - [📋 Table of Contents](#-table-of-contents)
   - [🚀 Overview](#-overview)
   - [✨ Key Features](#-key-features)
-    - [🎯 Prompt Management](#-prompt-management)
-    - [🤖 AI Optimization](#-ai-optimization)
-    - [🛍️ Prompt Marketplace](#️-prompt-marketplace)
-    - [📝 Prompt Templates](#-prompt-templates)
-    - [💬 Prompt Chat](#-prompt-chat)
+    - [⏱️ Pomodoro Timer](#️-pomodoro-timer)
+    - [📊 Focus Statistics](#-focus-statistics)
+    - [🎯 Progress Tracking](#-progress-tracking)
+    - [🔔 Smart Notifications](#-smart-notifications)
+    - [🌙 Dark Mode](#-dark-mode)
   - [🛠️ Technical Stack](#️-technical-stack)
     - [Frontend](#frontend)
     - [Backend](#backend)
@@ -41,80 +39,87 @@
 
 ## 🚀 Overview
 
-Our platform provides a complete solution for managing and optimizing AI prompts, featuring a marketplace for buying and selling prompts, AI-powered optimization tools, and customizable templates for various use cases.
+Lucent is a modern Pomodoro timer application that helps you stay focused and productive. Built with the Pomodoro Technique in mind, it combines beautiful design with powerful features to track your focus sessions and provide meaningful insights into your productivity patterns.
 
 ## ✨ Key Features
 
-### 🎯 Prompt Management
+### ⏱️ Pomodoro Timer
 
-- Create, read, update, and delete prompts
-- Detailed prompt attributes (title, description, category, tags, tone, context)
-- Support for output images (DALL·E / Midjourney)
-- Visibility controls (Public/Private/Draft)
+- **Classic Pomodoro Technique**: 25-minute work sessions with 5-minute breaks
+- **Customizable Intervals**: Adjust work and break durations to fit your workflow
+- **Long Break Support**: 15-minute breaks after 4 completed sessions
+- **Auto-start**: Seamlessly transition between work and break periods
+- **Pause & Resume**: Full control over your timer sessions
 
-### 🤖 AI Optimization
+### 📊 Focus Statistics
 
-- Prompt analysis based on clarity, creativity, and output control
-- Quality scoring (AI-generated and user votes)
-- AI-powered prompt rewriting suggestions
-- Visual prompt analysis
+- **Daily Progress**: Track completed Pomodoros and total focus time
+- **Weekly Overview**: Visual charts showing your productivity trends
+- **Monthly Reports**: Comprehensive analysis of your focus patterns
+- **Goal Setting**: Set daily/weekly Pomodoro targets
+- **Achievement Badges**: Unlock rewards for consistent focus
 
-### 🛍️ Prompt Marketplace
+### 🎯 Progress Tracking
 
-- Browse and search prompts by type, tags, and authors
-- Detailed prompt previews with images and creator profiles
-- Secure payment processing via Stripe
-- Rating and review system
+- **Session History**: Complete log of all your focus sessions
+- **Task Association**: Link Pomodoros to specific tasks or projects
+- **Productivity Score**: AI-powered insights on your focus quality
+- **Streak Counter**: Track consecutive days of focused work
+- **Export Data**: Download your statistics for external analysis
 
-### 📝 Prompt Templates
+### 🔔 Smart Notifications
 
-- Industry-specific templates:
-  - Marketing (email, caption, ad copy)
-  - Design (Art Prompt, Illustration)
-  - Developer (code snippet, tool generator)
-  - Student (essay, study summary, quiz)
-- Interactive prompt builder
+- **Session Alerts**: Gentle reminders when work/break periods end
+- **Daily Goals**: Motivational notifications to maintain consistency
+- **Achievement Celebrations**: Celebrate milestones and streaks
+- **Focus Reminders**: Gentle nudges to start your next session
 
-### 💬 Prompt Chat
+### 🌙 Dark Mode
 
-- Conversational interface for prompt creation
-- Step-by-step prompt generation
-- Session saving and management
+- **Beautiful UI**: Clean, modern interface with smooth animations
+- **Dark/Light Themes**: Choose your preferred visual experience
+- **Accessibility**: High contrast modes and screen reader support
+- **Responsive Design**: Optimized for all device sizes
 
 ## 🛠️ Technical Stack
 
 ### Frontend
 
-- React Native + Expo (mobile)
-- React + Tailwind (web)
+- **Framework**: React Native with Expo
+- **Language**: TypeScript
+- **State Management**: Redux Toolkit
+- **Navigation**: React Navigation v6
+- **Charts**: React Native Gift Chart
 
 ### Backend
 
 - **Framework**: NestJS
-- **ORM**: TypeORM
-- **Authentication & Storage**: Firebase
-- **Database**: PostgreSQL
-- **AI Integration**: OpenAI GPT-4 API
-- **Payment Processing**: Stripe SDK
+- **Language**: TypeScript
+- **Database**: PostgreSQL with TypeORM
+- **Authentication**: Firebase Auth
+- **Real-time**: Firebase Realtime Database / Firestore
+- **Push Notifications**: Expo Notifications
 - **Deployment**:
-  - Frontend: Vercel (web), Expo EAS (mobile)
-  - Backend: Fly.io
+  - Mobile: Expo EAS Build
+  - Backend: Fly.io / Railway
 
 ## 💎 Subscription Tiers
 
 ### Free Tier
 
-- Limited prompt creation per month
-- Basic prompt management
-- Access to public templates
+- Basic Pomodoro timer functionality
+- Daily statistics tracking
+- Standard notification features
+- Basic progress insights
 
 ### Pro Tier
 
-- Unlimited prompt creation
-- AI optimization features
-- Marketplace access
-- Advanced templates
+- Advanced analytics and reporting
+- Custom timer intervals
+- Task categorization and project tracking
+- Data export capabilities
 - Priority support
+- Ad-free experience
 
 ## 🚀 Getting Started
 
@@ -127,28 +132,19 @@ Our platform provides a complete solution for managing and optimizing AI prompts
 # Install dependencies
 npm install
 
-# Start development server
-npm run dev
-```
+# Start Expo development server
+npx expo start
 
-## ⚙️ Environment Variables
+# For iOS simulator
+npx expo run:ios
 
-```env
-# Backend (.env)
-DATABASE_URL=postgresql://user:password@localhost:5432/prompt_db
-FIREBASE_API_KEY=your_firebase_api_key
-FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-FIREBASE_PROJECT_ID=your_firebase_project_id
-FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
-FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
-FIREBASE_APP_ID=your_firebase_app_id
-OPENAI_API_KEY=your_openai_api_key
-STRIPE_SECRET_KEY=your_stripe_secret_key
+# For Android emulator
+npx expo run:android
 ```
 
 ## 📞 Support
 
-For support, email [support@promptplatform.com](mailto:support@promptplatform.com)
+For support, email [support@lucent.app](mailto:support@lucent.app)
 
 ## 📄 License
 
@@ -157,5 +153,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by the Prompt Management Platform Team</sub>
+  <sub>Built with ❤️ by the Lucent Team</sub>
 </div>
