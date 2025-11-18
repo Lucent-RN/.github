@@ -18,24 +18,24 @@
 ## 📋 Table of Contents
 
 - [Lucent - Pomodoro Focus Timer](#lucent---pomodoro-focus-timer)
-  - [📋 Table of Contents](#-table-of-contents)
-  - [🚀 Overview](#-overview)
-  - [✨ Key Features](#-key-features)
-    - [⏱️ Pomodoro Timer](#️-pomodoro-timer)
-    - [📊 Focus Statistics](#-focus-statistics)
-    - [🎯 Progress Tracking](#-progress-tracking)
-    - [🔔 Smart Notifications](#-smart-notifications)
-    - [🌙 Dark Mode](#-dark-mode)
-  - [🛠️ Technical Stack](#️-technical-stack)
+  - [Table of Contents](#-table-of-contents)
+  - [Overview](#-overview)
+  - [Key Features](#-key-features)
+    - [Pomodoro Timer](#️-pomodoro-timer)
+    - [Focus Statistics](#-focus-statistics)
+    - [Progress Tracking](#-progress-tracking)
+    - [Smart Notifications](#-smart-notifications)
+    - [Dark Mode](#-dark-mode)
+  - [Technical Stack](#️-technical-stack)
     - [Frontend](#frontend)
     - [Backend](#backend)
   - [💎 Subscription Tiers](#-subscription-tiers)
     - [Free Tier](#free-tier)
     - [Pro Tier](#pro-tier)
-  - [🚀 Getting Started](#-getting-started)
-  - [⚙️ Environment Variables](#️-environment-variables)
-  - [📞 Support](#-support)
-  - [📄 License](#-license)
+  - [Getting Started](#-getting-started)
+  - [Environment Variables](#️-environment-variables)
+  - [Support](#-support)
+  - [License](#-license)
 
 ## 🚀 Overview
 
@@ -43,7 +43,7 @@ Lucent is a modern Pomodoro timer application that helps you stay focused and pr
 
 ## ✨ Key Features
 
-### ⏱️ Pomodoro Timer
+### Pomodoro Timer
 
 - **Classic Pomodoro Technique**: 25-minute work sessions with 5-minute breaks
 - **Customizable Intervals**: Adjust work and break durations to fit your workflow
@@ -51,7 +51,7 @@ Lucent is a modern Pomodoro timer application that helps you stay focused and pr
 - **Auto-start**: Seamlessly transition between work and break periods
 - **Pause & Resume**: Full control over your timer sessions
 
-### 📊 Focus Statistics
+### Focus Statistics
 
 - **Daily Progress**: Track completed Pomodoros and total focus time
 - **Weekly Overview**: Visual charts showing your productivity trends
@@ -59,7 +59,7 @@ Lucent is a modern Pomodoro timer application that helps you stay focused and pr
 - **Goal Setting**: Set daily/weekly Pomodoro targets
 - **Achievement Badges**: Unlock rewards for consistent focus
 
-### 🎯 Progress Tracking
+### Progress Tracking
 
 - **Session History**: Complete log of all your focus sessions
 - **Task Association**: Link Pomodoros to specific tasks or projects
@@ -67,21 +67,21 @@ Lucent is a modern Pomodoro timer application that helps you stay focused and pr
 - **Streak Counter**: Track consecutive days of focused work
 - **Export Data**: Download your statistics for external analysis
 
-### 🔔 Smart Notifications
+### Smart Notifications
 
 - **Session Alerts**: Gentle reminders when work/break periods end
 - **Daily Goals**: Motivational notifications to maintain consistency
 - **Achievement Celebrations**: Celebrate milestones and streaks
 - **Focus Reminders**: Gentle nudges to start your next session
 
-### 🌙 Dark Mode
+### Dark Mode
 
 - **Beautiful UI**: Clean, modern interface with smooth animations
 - **Dark/Light Themes**: Choose your preferred visual experience
 - **Accessibility**: High contrast modes and screen reader support
 - **Responsive Design**: Optimized for all device sizes
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 ### Frontend
 
@@ -121,7 +121,7 @@ Lucent is a modern Pomodoro timer application that helps you stay focused and pr
 - Priority support
 - Ad-free experience
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repository
 2. Install dependencies
@@ -144,7 +144,7 @@ npx expo run:android
 
 ## 📞 Support
 
-For support, email [support@lucent.app](mailto:support@lucent.app)
+For support, email [support@lucent.app](kanent.tech@gmail.com)
 
 ## 📄 License
 
